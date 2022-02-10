@@ -7,8 +7,8 @@ const Home = () => {
 	return (
 		<div className="container">
 			<div className="d-flex align-items-center flex-column">
-				<div id="barra"></div>
-				<div className="traffic-light ">
+				<div id="bar"></div>
+				<div className="light">
 					<div
 						id="red"
 						className={"red" + (color === "red" ? " glow" : "")}

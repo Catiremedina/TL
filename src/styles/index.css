@@ -1,19 +1,16 @@
 
 
-
-.traffic-light{
+.bar{
     background-color: black;
-    display: inline-block;
-    border-radius: 5px;
-    
-}
-#barra{
-    background-color: black;
-    
     width: 10px;
     height: 50px;
-    
     left: 25px;
+}
+
+.light{
+    background-color: black;
+    display: inline-block;
+    border-radius: 5px;   
 }
 
 .red{
